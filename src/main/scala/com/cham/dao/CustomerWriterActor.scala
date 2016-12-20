@@ -13,11 +13,15 @@ class CustomerWriterActor(cluster: Cluster) extends Actor{
 
   val session = cluster.connect(Keyspaces.webshop)
 
-  val preparedStatement = session.prepare("INSERT INTO customers(customerid, customername, emailaddress, deliveryaddress,orderid,createddatetime) VALUES (?, ?, ?, ?, ?, ?);")
+  val insertSql = "INSERT INTO customers(customerid, customername, emailaddress, deliveryaddress,orderid,createddatetime) VALUES (?, ?, ?, ?, ?, ?);"
 
-  def saveCustomer(customer: Customer): Unit =
+  val preparedStatement = session.prepare(insertSql)
+
+  def saveCustomer(customer: Customer): Unit = {
+    printf("Inside saveCustomer() of CustomerWriterActor")
     session.executeAsync(preparedStatement.bind(customer.customerId.id, customer.customerName.text, customer.emailAddress.text,
-                                                customer.deliveryAddress.text, customer.orderId.id, customer.createdDateTime))
+      customer.deliveryAddress.text, customer.orderId.id, customer.createdDateTime))
+  }
 
   def receive: Receive = {
 

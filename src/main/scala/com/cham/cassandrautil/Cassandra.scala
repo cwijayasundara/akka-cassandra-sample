@@ -12,6 +12,7 @@ import java.util.concurrent.Executor
 /**
   * Created by cwijayasundara on 19/12/2016.
   */
+
 private[cassandrautil] trait CassandraResultSetOperations {
 
   private case class ExecutionContextExecutor(executionContext: ExecutionContext) extends Executor {

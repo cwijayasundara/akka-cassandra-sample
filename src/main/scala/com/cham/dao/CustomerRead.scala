@@ -14,6 +14,7 @@ import com.cham.domain.Customer
 import com.datastax.driver.core.querybuilder.QueryBuilder
 import com.datastax.driver.core.{BoundStatement, Cluster, Row}
 
+// companion object
 object CustomerReaderActor {
   case class FindAll(maximum: Int = 100)
   case object CountAll
@@ -42,11 +43,15 @@ class CustomerReaderActor(cluster: Cluster) extends Actor {
 
   def receive: Receive = {
 
-    case FindAll(maximum)  =>
+    case FindAll(maximum)  => {
+      println("Inside the FindAll() of the CustomerReaderActor..")
       val query = QueryBuilder.select().all().from(Keyspaces.webshop, "customers").limit(maximum)
-      session.executeAsync(query) map(_.all().map(buildCustomer).toVector) pipeTo sender
+      session.executeAsync(query) map (_.all().map(buildCustomer).toVector) pipeTo sender
+    }
 
-    case CountAll =>
-      session.executeAsync(countAll) map(_.one.getLong(0)) pipeTo sender
+    case CountAll => {
+      println("Inside the CountAll() of the CustomerReaderActor..")
+      session.executeAsync(countAll) map (_.one.getLong(0)) pipeTo sender
+    }
   }
 }
