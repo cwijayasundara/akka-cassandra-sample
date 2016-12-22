@@ -16,7 +16,7 @@ import com.typesafe.config.{ConfigFactory}
   * Temp class to test the service facade actor
   */
 
-object Main extends App with ConfigCassandraCluster {
+object MainTestServiceFacade extends App with ConfigCassandraCluster {
 
   // load the configs from application.config
   val config = ConfigFactory.load()
@@ -34,7 +34,7 @@ object Main extends App with ConfigCassandraCluster {
 
   val testCustomer:Customer = new Customer("5", "test customer","test@gmail.com"," some address","5555", new Date())
 
-  customerServiceActor ! CustomerService.CreateCustomerEvent(testCustomer)
+  customerServiceActor ! CustomerService.CreateCustomer(testCustomer)
   customerServiceActor ! CustomerService.GetAllCustomers
   customerServiceActor ! CustomerService.GetCustomerCount
   customerServiceActor ! CustomerService.GetCustomer("1")
