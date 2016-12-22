@@ -26,7 +26,7 @@ trait RestRoutes extends CustomerServiceApi with EventMarshalling {
 
   import StatusCodes._
 
-  def routes: Route = customersRoute
+  def routes: Route = customersRoute ~ customerRoute
 
   // host:port/webshop/customer
   def customersRoute =
@@ -35,12 +35,25 @@ trait RestRoutes extends CustomerServiceApi with EventMarshalling {
         get {
           // GET /customers
           onSuccess(getCustomers(100)) { customers: Customers =>
-            println("Inside the WebShopRestApi ..")
+            println("Inside the WebShopRestApi .." + customers.toString)
             complete(OK)
           }
         }
       }
     }
+
+  def customerRoute =
+    pathPrefix("customer") {
+      pathEndOrSingleSlash {
+        get {
+          // GET /customer
+          onSuccess(getCustomer("1")) { customer: Customer =>
+            complete(OK)
+          }
+        }
+      }
+    }
+
 }
 
 

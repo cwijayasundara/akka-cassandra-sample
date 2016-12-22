@@ -11,6 +11,7 @@ import com.cham.core.Keyspaces
 import com.cham.dao.CustomerReaderActor.{CountAll, FindAll, FindCustomer}
 import akka.actor.Actor
 import com.cham.domain.Customer
+import com.datastax.driver.core.exceptions.UnsupportedFeatureException
 import com.datastax.driver.core.querybuilder.QueryBuilder
 import com.datastax.driver.core.{BoundStatement, Cluster, Row}
 
@@ -49,7 +50,7 @@ class CustomerReaderActor(cluster: Cluster) extends Actor {
     case FindAll(maximum:Int)  => {
       println("Inside the FindAll() of the CustomerReaderActor..")
       val query = QueryBuilder.select().all().from(Keyspaces.webshop, "customers").limit(maximum)
-      session.executeAsync(query) map (_.all().map(buildCustomer).toVector) pipeTo sender
+        session.executeAsync(query) map (_.all().map(buildCustomer).toVector) pipeTo sender
     }
 
     case CountAll => {
