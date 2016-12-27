@@ -1,7 +1,7 @@
 package com.cham.dao
 
 import com.cham.core.Keyspaces
-import akka.actor.Actor
+import akka.actor.{Actor, Props}
 import com.cham.dao.CustomerWriterActor.{CreateCustomer, CreateCustomers}
 import com.datastax.driver.core.Cluster
 import com.cham.domain.Customer
@@ -16,7 +16,9 @@ object CustomerWriterActor{
   case class CreateCustomers(customers:Vector[Customer])
 
 }
+
 class CustomerWriterActor(cluster: Cluster) extends Actor{
+
 
   val session = cluster.connect(Keyspaces.webshop)
 

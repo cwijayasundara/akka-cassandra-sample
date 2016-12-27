@@ -1,6 +1,6 @@
 package com.cham.service
 
-import akka.actor.{Actor, ActorSystem, Props}
+import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 import com.cham.dao.{CustomerReaderActor, CustomerWriterActor}
 import com.cham.domain.Customer
 import com.cham.service.CustomerService._
@@ -30,15 +30,32 @@ class CustomerServiceActor(system:ActorSystem,cluster:Cluster) extends Actor{
   val customerWriter = system.actorOf(Props(new CustomerWriterActor(cluster)))
   val customerReader = system.actorOf(Props(new CustomerReaderActor(cluster)))
 
+
   // need to handle the futures and responses to REST layer..
 
   def receive: Receive = {
 
     case CreateCustomer(customer:Customer) => customerWriter ! CustomerWriterActor.CreateCustomer(customer)
     case CreateCustomers(customers:Vector[Customer]) => customerWriter ! CustomerWriterActor.CreateCustomers(customers)
-    case GetAllCustomers(limit:Int) => customerReader ! CustomerReaderActor.FindAll(limit)
-    case GetCustomerCount => customerReader ! CustomerReaderActor.CountAll
-    case GetCustomer(custName:String) => customerReader ! CustomerReaderActor.FindCustomer(custName)
+
+    case GetAllCustomers(limit:Int) => //customerReader ! CustomerReaderActor.FindAll(limit)
+      {
+        def notFound() = sender() ! None
+        def getAllCustomers(child:ActorRef) = child forward CustomerReaderActor.FindAll(limit)
+        context.child("customers").fold(notFound())(getAllCustomers)
+      }
+
+    case GetCustomerCount =>
+    {
+      def notFound() = sender() ! None
+      def getCustomerCount(child: ActorRef) = child forward CustomerReaderActor.CountAll
+      context.child("count").fold(notFound())(getCustomerCount)
+    }
+    case GetCustomer(custName) => {
+      def notFound() = sender() ! None
+      def getCustomer(child: ActorRef) = child forward CustomerReaderActor.FindCustomer(custName)
+      context.child(custName).fold(notFound())(getCustomer)
+    }
 
   }
 }
