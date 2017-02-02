@@ -4,7 +4,7 @@
 		module="akka-cassandra_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161219171631"
+		publication="20170102155228"
 	>
 		<description>
 		akka-cassandra
@@ -96,6 +96,14 @@
 		<dependency org="org.specs2" name="specs2-core_2.11" rev="2.4.6" conf="compile->default(compile)">
 			<artifact name="specs2-core_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="specs2-core_2.11" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-camel_2.11" rev="2.4.9" conf="compile->default(compile)">
+			<artifact name="akka-camel_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="akka-camel_2.11" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<dependency org="net.liftweb" name="lift-json_2.10" rev="3.0-M1" conf="compile->default(compile)">
+			<artifact name="lift-json_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="lift-json_2.10" type="jar" ext="jar" conf="*"/>
 		</dependency>
 	</dependencies>
 </ivy-module>

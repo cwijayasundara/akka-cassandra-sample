@@ -1774,9 +1774,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 579ms :: artifacts dl 15ms
+[debug] :: resolution report :: resolve 1658ms :: artifacts dl 29ms
 [debug] 	report for com.cham#akka-cassandra$sbt_2.10;1.0 default produced in /Users/cwijayasundara/Documents/self-learning/akka/akka-cassandra/target/resolution-cache/reports/com.cham-akka-cassandra$sbt_2.10-default.xml
-[debug] 	resolve done (579ms resolve - 15ms download)
+[debug] 	resolve done (1658ms resolve - 29ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: com.cham#akka-cassandra$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2470,6 +2470,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.13!interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.13!logging.jar(src)
-[debug] :: resolution report :: resolve 138ms :: artifacts dl 15ms
+[debug] :: resolution report :: resolve 197ms :: artifacts dl 24ms
 [debug] 	report for com.cham#akka-cassandra$sources_2.10;1.0 default produced in /Users/cwijayasundara/Documents/self-learning/akka/akka-cassandra/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.10-default.xml
-[debug] 	resolve done (138ms resolve - 15ms download)
+[debug] 	resolve done (197ms resolve - 24ms download)

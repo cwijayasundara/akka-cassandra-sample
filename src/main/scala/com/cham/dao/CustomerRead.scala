@@ -47,6 +47,8 @@ class CustomerReaderActor(cluster: Cluster) extends Actor {
 
   def receive: Receive = {
 
+    // this is my first scala program..
+
     case FindAll(maximum:Int)  => {
       println("Inside the FindAll() of the CustomerReaderActor..")
       val query = QueryBuilder.select().all().from(Keyspaces.webshop, "customers").limit(maximum)

@@ -27,8 +27,9 @@ libraryDependencies ++= {
     "com.typesafe.akka" % "akka-testkit_2.11" % "2.4.9" withSources(),
     "com.novocode" % "junit-interface" % "0.11" withSources(),
     "org.xerial.snappy" % "snappy-java" % "1.1.1.3" withSources(),
-    "org.specs2" % "specs2-core_2.11" % "2.4.6" withSources()
-
+    "org.specs2" % "specs2-core_2.11" % "2.4.6" withSources(),
+    "com.typesafe.akka" %% "akka-camel" % akkaVersion withSources(),
+    "net.liftweb" %  "lift-json_2.10" % "3.0-M1" withSources()
   )
 
 }
