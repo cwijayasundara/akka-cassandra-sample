@@ -2,82 +2,196 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd283826-d5cf-497a-96db-66b6fa812dd0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1d49c5bc64ae95ca327c$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1d49c5bc64ae95ca327c$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1d49c5bc64ae95ca327c.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$1d49c5bc64ae95ca327c.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$5997c2920369133e1cb3$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$5997c2920369133e1cb3$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$5997c2920369133e1cb3$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$5997c2920369133e1cb3.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$5997c2920369133e1cb3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$62907f6258aa372e55fd$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$62907f6258aa372e55fd$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$62907f6258aa372e55fd.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$62907f6258aa372e55fd.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$73942ad87543b9c6e018$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$73942ad87543b9c6e018$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$73942ad87543b9c6e018.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$73942ad87543b9c6e018.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a46588f160ee745c4732$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a46588f160ee745c4732$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a46588f160ee745c4732.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$a46588f160ee745c4732.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$db5e5d258c75385bbf1a$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$db5e5d258c75385bbf1a$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$db5e5d258c75385bbf1a.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$db5e5d258c75385bbf1a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$fc01039ea52ccd35be1a$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$fc01039ea52ccd35be1a$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$fc01039ea52ccd35be1a.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$fc01039ea52ccd35be1a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/akka-cassandra-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/akka-cassandra-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-cassandra-build-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/.history" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-cassandra$sbt_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-cassandra$sbt_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-cassandra$sources_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-cassandra$sources_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-cassandra$sources_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-cassandra$sources_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-cassandra_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-cassandra_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-sample$sbt_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-sample$sbt_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-sample$sources_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-sample$sources_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-sample$sources_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-sample$sources_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-sample_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/com.cham/akka-sample_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-cassandra$sbt_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-cassandra$sbt_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-cassandra$sources_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-cassandra$sources_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-cassandra$sources_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-cassandra$sources_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-cassandra_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-cassandra_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sbt_2.10-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.10-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra$sources_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-cassandra_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sbt_2.10-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.10-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample$sources_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/com.cham-akka-sample_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sbt_2.10-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.10-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra$sources_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-cassandra_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/Main$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/Main$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/Main$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/Main$delayedInit$body.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/Binder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/BoundStatementOperations$RichBoundStatement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/BoundStatementOperations$class.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/BoundStatementOperations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/CassandraCluster.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/CassandraResultSetOperations$ExecutionContextExecutor$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/CassandraResultSetOperations$ExecutionContextExecutor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/CassandraResultSetOperations$RichResultSetFuture$$anon$1$$anonfun$run$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/CassandraResultSetOperations$RichResultSetFuture$$anon$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/CassandraResultSetOperations$RichResultSetFuture$$anonfun$value$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/CassandraResultSetOperations$RichResultSetFuture.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/CassandraResultSetOperations$class.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/CassandraResultSetOperations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/ConfigCassandraCluster$class.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/ConfigCassandraCluster.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/cassandra$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/cassandra$boundstatement$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/cassandra$resultset$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/cassandrautil/cassandra.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/core/package$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/core/package$Keyspaces$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/core/package.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerReaderActor$$anonfun$receive$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerReaderActor$$anonfun$receive$1$$anonfun$applyOrElse$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerReaderActor$$anonfun$receive$1$$anonfun$applyOrElse$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerReaderActor$$anonfun$receive$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerReaderActor$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerReaderActor$CountAll$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerReaderActor$FindAll$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerReaderActor$FindAll.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerReaderActor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerWriterActor$$anonfun$receive$1$$anonfun$applyOrElse$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerWriterActor$$anonfun$receive$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/dao/CustomerWriterActor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/domain/Customer$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/domain/Customer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/domain/CustomerId$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/domain/CustomerId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/domain/OrderId$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/domain/OrderId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/domain/Text$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/cham/domain/Text.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/CleanCassandra$$anonfun$CleanCassandra$$runAllCqls$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/CleanCassandra$$anonfun$CleanCassandra$$runCql$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/CleanCassandra$$anonfun$map$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/CleanCassandra$class.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/CleanCassandra.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/TestCassandraCluster$class.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/TestCassandraCluster.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1009,7 +1123,7 @@
       <workItem from="1482153197286" duration="17724000" />
       <workItem from="1486025578799" duration="178000" />
       <workItem from="1486025880061" duration="201000" />
-      <workItem from="1486109548211" duration="311000" />
+      <workItem from="1486109548211" duration="397000" />
     </task>
     <task id="LOCAL-00001" summary="removed .idea">
       <created>1486109656631</created>
@@ -1025,11 +1139,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486109779583</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removed .idea">
+      <created>1486109864832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1486109864832</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18414000" />
+    <option name="totallyTimeSpent" value="18500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="6" />
